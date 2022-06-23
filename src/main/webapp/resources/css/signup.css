@@ -1,0 +1,198 @@
+
+       
+       @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:display=swap');
+        a:link { color: black; text-decoration: none;}
+        a:visited { color: black; text-decoration: none;}
+        a:hover { color: black; text-decoration: none;}
+
+html,body{
+        display: inline-block;
+        margin : 0;
+        padding : 0;
+        width:100%;
+        height:100%;
+        background-image: url('images/hallstatt-g615f2ea54_1920_gaussianblur.jpg');
+        background-repeat : no-repeat;
+        background-size : cover;
+    }
+
+#footer{
+    background-color: #003458;
+    height: 100px;
+    width: 100%;
+    margin-top: 150px;
+    }  
+#footer p{
+    padding: 50px 0 0 44.7%;
+    width:22.39%;
+    font-size : 14px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+}
+#signup_box{
+ 
+        width: 500px; height : 600px;
+        margin : 60px 0 0 710px;
+        background-color: rgb(255, 255, 255,0.8);
+
+}
+#signup_box #banner{
+    margin : 0 0 0 170px; padding : 20px 0 0 0;
+    width:160px;
+    font-size : 40px; font-family: 'Noto Sans KR', sans-serif; font-weight: 600;
+}
+#signup_box #input_name{
+    position: relative;
+    margin: 40px 0 0 92px;
+    width: 316px;
+}
+#signup_box #input_name i{
+    position: absolute;
+    top : 3px;
+    left : 5px;
+    bottom: 3px;
+}
+#signup_box #input_name input{
+        margin: 0 0 0 42px;
+        width : 263px; height: 36px;
+        border : 1px solid;
+        padding-left: 3px;
+        font-size: 14px;
+        text-indent: 10px;
+        border : none;
+}
+#signup_box #input_id{
+    position: relative;
+    width: 316px;
+    margin: 20px 0 0 92px;
+}
+#signup_box #input_id i{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+    width: 36px; height: 36px;
+}
+#signup_box #input_id input{
+        margin: 0 0 0 42px;
+        width : 263px; height: 36px;
+        border : 1px solid;
+        padding-left: 3px;
+        font-size: 14px;
+        text-indent: 10px;
+        border : none;
+}
+#signup_box #input_id button{
+    position: absolute;
+    top: 6px;
+    right: 15px;
+    margin:0; padding:0 0 2px 0;
+    width : 70px; height : 25px;
+    background-color: #464964;
+    border : none;
+    border-radius: 5px;
+    color : #fff;
+    font-size : 12px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; vertical-align: middle;
+}
+#signup_box #input_id button:hover{
+    box-shadow: 0 0 0.5px 1px black
+}
+
+#signup_box #passwd{
+    display: inline-flex;
+    position: relative;
+    margin : 0; padding : 0;
+    height : 50px;
+    margin: 16px 0 0 92px;
+}
+#signup_box #passwd i{
+    position: absolute;
+    top : 15px;
+    left : 5px;
+    bottom: 3px;
+    margin : 0; padding : 0;
+}
+#signup_box #passwd #input_passwd input{
+    margin: 0 0 0 42px;
+    width : 270px; height: 36px;
+    border : 1px solid;
+    padding-left: 3px;
+    font-size: 14px;
+    text-indent: 10px;
+    border : none;
+}
+#signup_box #input_passwd p{
+    margin: 0 0 0 42px; padding: 0;
+    font-size : 12px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; vertical-align: middle;
+}
+#signup_box #input_passwdcheck{
+    position: relative;
+    margin: 20px 0 0 92px;
+    width: 316px;
+}
+#signup_box #input_passwdcheck i{
+    position: absolute;
+    top : 3px;
+    left : 5px;
+    bottom: 3px;
+}
+#signup_box #input_passwdcheck input{
+    margin: 0 0 0 42px;
+    width : 263px; height: 36px;
+    border : 1px solid;
+    padding-left: 3px;
+    font-size: 14px;
+    text-indent: 10px;
+    border : none;
+}
+#signup_box #input_phone{
+    position: relative;
+    margin: 20px 0 0 92px;
+    width: 316px;
+}
+#signup_box #input_phone i{
+    position: absolute;
+    top : 3px;
+    left : 5px;
+    bottom: 3px;
+}
+#signup_box #input_phone input{
+        margin: 0 0 0 42px;
+        width : 263px; height: 36px;
+        border : 1px solid;
+        padding-left: 3px;
+        font-size: 14px;
+        text-indent: 10px;
+        border : none;
+}
+#signup_box #input_email{
+    position: relative;
+    margin: 20px 0 0 92px;
+    width: 316px;
+}
+#signup_box #input_email i{
+    position: absolute;
+    top : 3px;
+    left : 5px;
+    bottom: 3px;
+}
+#signup_box #input_email input{
+        margin: 0 0 0 42px;
+        width : 263px; height: 36px;
+        border : 1px solid;
+        padding-left: 3px;
+        font-size: 14px;
+        text-indent: 10px;
+        border : none;
+}
+#signup_box #signup_submit{
+        width: 215px; height: 45px;
+        font-size : 25px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+        text-align: center;
+        vertical-align: text-bottom;
+        margin: 60px 0 0 142.5px;
+        border:none;
+        padding : 0 0 5px 0;
+        border-radius: 25px;
+        background-color: #989898;
+}
+#signup_submit:hover{
+    box-shadow: 0 0 3px 1px black;
+}

@@ -1,0 +1,62 @@
+#top{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 100%; height: 65px;
+
+}
+#logo{
+    float : left;
+    width: 235; height: 65px;
+    margin: 0 0.1% 0 18.75%;
+}
+#navi {
+    float: left;
+    width: auto; height: 25px;
+    padding : 0 0 0 21.9%;
+}
+#navi span{
+    font-size : 18px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+    display: inline-block;
+    padding: 0 0 0 20px;
+    margin: 20px 0 auto ;
+}
+#login{
+    display: inline-flex;
+    position: relative;
+    float: left;
+    width: auto; height: 25px;
+    margin: 0 0 0 6.98%;
+}
+#login a{
+    display: inline-flex;
+}
+#login i{
+    position: absolute;
+    top : 20px;
+}
+
+#login .logout{
+	font-size : 14px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color : #fff;
+	margin : 0; padding :5px 0 0 18px;
+}
+
+#login p{
+    font-size : 20px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+    margin : 21px 0 0 40px;
+}
+#login .member_name {
+	font-size : 20px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+}
+
+#login .member {
+	font-size : 18px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300;
+}
+#login #login_success{
+	padding : 18px 0 0 0;
+}
+
+#login #login_success > a {
+	margin : 0 0 0 10px;
+	width : 80px; height : 30px;
+ 	border-radius : 25px;
+	background-color: #000;
+}

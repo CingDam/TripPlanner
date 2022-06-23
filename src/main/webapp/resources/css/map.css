@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:display=swap');
+a:link { color: black; text-decoration: none;}
+a:visited { color: black; text-decoration: none;}
+a:hover { color: black; text-decoration: none;}
+#top{
+    background-color : rgba(182,190,216,0.8);
+}
+#map {
+width : 80%; height: 969px;
+}
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+}
+
+#footer{
+background-color: #003458;
+height: 100px;
+width: 100%;
+margin : 0; padding : 0;
+}  
+#footer p{
+padding: 50px 0 0 44.7%; margin: 0;
+width:22.39%;
+font-size : 14px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+}
+
+#schedule_map{
+    display: flex;
+}
+#scheduel{
+	width : 450px;
+}
+.schedule{
+    display: flex;
+}
+.schedule_banner {
+    margin :0; padding :0;
+    width: 450px; height: 50px;
+    background-color: #00498c;
+    text-align: center; vertical-align: middle;
+    border-bottom: 1px solid #565656;
+    
+}
+.schedule_banner > p{
+    margin: 0; padding: 7px 0 0 0;
+    font-size : 22px; font-family: 'Noto Sans KR', sans-serif; font-weight: 500; color: #fff;
+}
+
+.country_box{
+    display: flex;
+}
+.country {
+    padding: 0 0 0 0;
+    width: 100px; height: 35px;
+    text-align: center;
+    background-color: #274985;
+}
+.country > p{
+    margin : 5.5px 0 0 0; 
+    font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+} 
+.country_box > #country {
+    width: 120px;
+    border : none ;outline: none;
+    border-top: none;
+    text-align: center;
+}
+.city_box{
+    display: flex;
+}
+.city {
+    padding: 0 0 0 0;
+    width: 100px; height: 35px;
+    text-align: center;
+    background-color: #274985;
+}
+.city > p{
+    margin : 5.5px 0 0 0; 
+    font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+} 
+.city_box > #city {
+    padding: none;
+    width: 120px;
+    border:none; outline: none;
+    border-top: none;
+    text-align: center;
+}
+.scheduel_bottom{
+    display: flex;
+    margin: 0 0 0 0 ;
+    border-top : 1px solid; border-bottom : 1px solid;
+}
+.scheduel_bottom > .sdate {
+    padding: 0 0 0 0;
+    width: 100px; height: 35px;
+    text-align: center;
+    background-color: #274985;
+    border : none;
+}
+.sdate > p{
+    margin : 5.5px 0 0 0; 
+    font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+} 
+.scheduel_bottom > #sdate {
+    width: 120px;
+    border : none;
+    text-align: center;
+    font-size : 13px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300;
+}
+.scheduel_bottom > .adate {
+    padding: 0 0 0 0;
+    width: 100px; height: 35px;
+    text-align: center;
+    background-color: #274985;
+}
+.adate > p{
+    margin : 5.5px 0 0 0; 
+    font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+} 
+.scheduel_bottom > #adate {
+    width: 119px;
+    border : none;
+    text-align: center;
+    font-size : 13px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300;
+}
+.list{
+	width : 450px; height : 801px;
+}
+.sch_map_submit{
+	width: 450px; height : 45px;
+	background-color : #2c2c2c;
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 300; color: #fff;
+	border : none;
+}
+.sch_map_submit:hover {
+	box-shadow: 0 0 10px 0px black inset
+}
+.loc_list{
+	width : 365px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.loc_list::-webkit-scrollbar {
+	display :none;
+}
+.loc{
+	margin : 0;
+	display : inline-flex;
+	position : relative;
+	width : 365px; height : 100px;
+	border-top:none; border-bottom : 1px solid;
+	
+}
+.loc > p{
+	padding : 0; margin :20px 0 0 10px;
+	width : 250px;
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+}
+.loc > button{
+	position : absolute;
+	width: 75px;height: auto;
+	border : none;
+	left : 280px;
+}
+.loc > img {
+	right : 10px;
+}
+.gm-style-iw .gm-style-iw-c{
+	padding : 0; margin :0;
+}
+#info{
+	display : inline-flex;
+}
+#info > p{
+	width : auto;
+	margin : 10px 0 0 0;
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+}
+#info > img{
+	margin : 0 0 0 50px;
+}
+#info_submit > button {
+	margin : 20px 0 0 45%;
+}
+#submit {
+	margin : 0 0 0 20px;
+}
+#title{
+	width: 450px; height : 50px;
+	border:none;
+	border-bottom : 1px solid; outline : none;
+	text-align: center;
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+}
+#list{
+	display : inline-flex;
+	width:450px; height : 751px;
+}
+.loc_top{
+	text-align: center;
+	background-color : #274985; 
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; color : #fff;
+}
+.day_list{
+	margin : 0; padding :0;
+	width:95px; height : 748px;
+	border-right : 1px solid;
+	overflow: auto;
+	overflow-x: hidden;
+}
+.day_list::-webkit-scrollbar {
+	display :none;
+}
+.day{
+	padding : 20px;
+	width : 95px;
+	border : none; border-bottom: 1px solid;
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400;
+	cursor: pointer;
+}
+.day_loclist_none{
+	display : none;
+}
+.day_select{
+	background-color : #274985;
+	font-size : 16px; font-family: 'Noto Sans KR', sans-serif; font-weight: 400; color : #fff;
+}
+.loc_top{
+	width : 450px;
+	display : inline-flex;
+}
+.loc_top > p{
+	padding : 0; margin :0 0 0 33%;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	<settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+		<!-- mapUnderscoreToCamelcase : DB 매핑한거에 밑줄을 java표기법처럼 변경
+			CamelCase : java에서 각 단어마다 대문자표기가 되는게 낙타처럼생긴것처럼 보여서 이렇게 지칭-->
+	</settings>
+	
+	<typeAliases>
+		<package name="kr.ac.kopo.tripplanner.model"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="mybatis/member.xml"/>
+		<mapper resource="mybatis/schmap.xml"/>
+		<mapper resource="mybatis/daySch.xml"/>
+	</mappers>
+</configuration>
+	
